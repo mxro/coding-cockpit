@@ -72,44 +72,50 @@
     {
       "before": ["leader", "w"],
       "commands": [
-          "workbench.action.files.save"
+          "workbench.action.files.save",
+      ]
+    },
+    {
+      "before": ["leader", "x"],
+      "commands": [
+          "workbench.action.files.save",
+          "workbench.action.closeActiveEditor",  
       ]
     },
     {
       "before": ["<Leader>", "v"],
-      "commands": ["clipboard-manager.editor.pickAndPaste"]
+      "commands": ["clipboard-manager.editor.pickAndPaste"],
     },
     {
       "before": ["<Leader>", "<Leader>", "p"],
       "commands": [
-          "workbench.action.showCommands"
+          "workbench.action.showCommands",
       ]
     },
     {
       "before": ["<Leader>", "p"],
       "commands": [
-          "workbench.action.quickOpen"
+          "workbench.action.quickOpen",
       ]
     },
     {
-      "before": ["<Leader>", "t"],
+      "before": ["<Leader>", "s"],
       "commands": [
-          "workbench.action.gotoSymbol"
+          "workbench.action.gotoSymbol",
       ]
     },
     { 
       "before": ["<Leader>", "g", "c"],
       "commands": [
         "git.commit"
-      ] 
-    },
-    { 
+      ], 
+    },{ 
       "before": ["<Leader>", "g", "p"],
       "commands": [
         "git.push"
-      ] 
+      ], 
     }
   ],
   "git.enableSmartCommit": true
 
-}
+} 
