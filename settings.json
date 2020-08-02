@@ -1,0 +1,102 @@
+{
+  "terminal.integrated.shell.windows": "cmd.exe",
+  "terminal.integrated.env.windows": {
+    "CMDER_ROOT": "D:\\image03\\Applications\\PortableWindows\\cmder"
+  },
+  "terminal.integrated.shellArgs.windows": [
+    "/k D:\\image03\\Applications\\PortableWindows\\cmder\\vendor\\init.bat"
+  ],
+  "window.zoomLevel": 1,
+  "explorer.confirmDelete": false,
+  "files.autoSave": "onFocusChange",
+  "editor.autoClosingBrackets": "never",
+  "git.autofetch": true,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": false,
+  "editor.autoClosingQuotes": "never",
+  "workbench.startupEditor": "newUntitledFile",
+  "wiki.basePath": "D:\\Drive\\Me\\Databases\\writing\\wiki",
+  "files.eol": "\n",
+  "vim.useSystemClipboard": true,
+  "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltdLFwiZm9ybWF0V2lkdGhcIjpcIjI0MFwiLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6ODUwLFwiaGVpZ2h0XCI6MTEwMH0sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
+  "extensions.ignoreRecommendations": false,
+  "vim.leader": " ",
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.sneakReplacesF": true,
+  "clipboard-manager.onlyWindowFocused": false,
+  "vim.easymotionMarkerBackgroundColor": "green",
+  "vim.visualModeKeyBindingsNonRecursive": [
+      {
+          "before": [
+              ">"
+          ],
+          "commands": [
+              "editor.action.indentLines"
+          ]
+      },
+      {
+          "before": [
+              "<"
+          ],
+          "commands": [
+              "editor.action.outdentLines"
+          ]
+      },
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["J"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["5", "k"]
+    },
+    {
+      "before": ["<Leader>", "t", "t"],
+      "commands": [":tabnew"]
+    },
+    {
+      "before": ["<Leader>", "t", "n"],
+      "commands": [":tabnext"]
+    },
+    {
+      "before": ["<Leader>", "t", "p"],
+      "commands": [":tabprev"]
+    },
+    {
+      "before": ["<Leader>", "t", "o"],
+      "commands": [":tabo"]
+    },
+    {
+      "before": ["leader", "w"],
+      "commands": [
+          "workbench.action.files.save",
+      ]
+    },
+    {
+      "before": ["<Leader>", "v"],
+      "commands": ["clipboard-manager.editor.pickAndPaste"],
+    },
+    {
+      "before": ["<Leader>", "<Leader>", "p"],
+      "commands": [
+          "workbench.action.showCommands",
+      ]
+    },
+    {
+      "before": ["<Leader>", "p"],
+      "commands": [
+          "workbench.action.quickOpen",
+      ]
+    },
+    {
+      "before": ["<Leader>", "t"],
+      "commands": [
+          "workbench.action.gotoSymbol",
+      ]
+    }
+  ]
+
+}

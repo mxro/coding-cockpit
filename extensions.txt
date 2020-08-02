@@ -1,0 +1,12 @@
+arcanis.vscode-zipfs
+brunnerh.insert-unicode
+dbaeumer.vscode-eslint
+eamodio.gitlens
+EdgardMessias.clipboard-manager
+esbenp.prettier-vscode
+hashicorp.terraform
+hediet.vscode-drawio
+Prisma.vscode-graphql
+vscodevim.vim
+WakaTime.vscode-wakatime
+Yunseok.vs-code-wiki
