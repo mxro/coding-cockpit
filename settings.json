@@ -54,6 +54,17 @@
       "after": ["5", "k"]
     },
     {
+      "before": [
+          "<Esc>"
+      ],
+      "after": [
+          "<Esc>"
+      ],
+      "commands": [
+          "workbench.action.files.save"
+      ]
+    },
+    {
       "before": ["<Leader>", "t", "t"],
       "commands": [":tabnew"]
     },
@@ -83,6 +94,14 @@
       ]
     },
     {
+      "before": ["<Leader>", "e"],
+      "commands": ["workbench.view.explorer"],
+    },
+    {
+      "before": ["<Leader>", "c"],
+      "commands": ["terminalHere.create"],
+    }
+    {
       "before": ["<Leader>", "v"],
       "commands": ["clipboard-manager.editor.pickAndPaste"],
     },
@@ -109,13 +128,22 @@
       "commands": [
         "git.commit"
       ], 
-    },{ 
+    },
+    { 
       "before": ["<Leader>", "g", "p"],
       "commands": [
         "git.push"
       ], 
+    },
+    { 
+      "before": ["<Leader>", "g", "f"],
+      "commands": [
+        "git.fetch",
+        "git.pull"
+      ], 
     }
   ],
-  "git.enableSmartCommit": true
+  "git.enableSmartCommit": true,
+  "html.autoClosingTags": false
 
 } 
